@@ -74,7 +74,7 @@ html {
 body {
     background: 
         linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.45)), 
-        url('/assets/images/image2.webp');
+        url('./assets/images/image2.webp');
     background-size: auto, cover;
     background-position: center;
     background-repeat: no-repeat;
