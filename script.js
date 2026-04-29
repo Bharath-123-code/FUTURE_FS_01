@@ -18,7 +18,7 @@ const projectData = [
     {
         title: "Blood Bank Management",
         type: "fullstack",
-        info: "Comprehensive blood bank management system handling donations, requests, and inventory. Includes donor profiles, compatibility matching, and reporting features.",
+        info: "Comprehensive blood bank management system handling donations, requests, and inventory. Includes donor profiles, compatibility matching, and reporting features. Still in development, with ongoing improvements to the user interface and backend functionality.Will be available on github soon.",
         github: "https://github.com/Bharath-123-code/blood-bank-management",
     }
 ];
@@ -65,7 +65,6 @@ function renderProjects(category = 'all') {
                 </a>
             </div>
         `;
-
         projectContainer.appendChild(card);
     });
 }
