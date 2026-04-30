@@ -60,9 +60,6 @@ function renderProjects(category = 'all') {
 
         card.innerHTML = `
             <span class="p-card-type">${project.type}</span>
-            <div class="project-thumbnail-placeholder">
-                <span>Project Preview</span>
-            </div>
             <h3>${project.title}</h3>
             <p>${project.info}</p>
             <div class="project-buttons">

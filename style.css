@@ -526,6 +526,7 @@ a {
     flex-direction: column;
     height: 100%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    justify-content: flex-start;
 }
 
 .p-card:hover {
@@ -549,23 +550,6 @@ a {
     margin-bottom: var(--spacing-md);
 }
 
-.project-thumbnail-placeholder {
-    height: 160px;
-    background: #f4f0ff;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: var(--spacing-lg);
-    border: 1px solid rgba(124, 58, 237, 0.1);
-}
-
-.project-thumbnail-placeholder span {
-    color: var(--primary);
-    font-weight: 600;
-    font-size: 0.9rem;
-    opacity: 0.8;
-}
 
 .p-card h3 {
     color: var(--text-primary);
