@@ -556,6 +556,41 @@ a {
     text-shadow: none;
 }
 
+.project-thumbnail-placeholder {
+    width: 100%;
+    height: 200px;
+    background: rgba(124, 58, 237, 0.05);
+    border: 2px dashed rgba(124, 58, 237, 0.2);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--spacing-lg);
+    overflow: hidden;
+    position: relative;
+}
+
+.project-thumbnail-placeholder::before {
+    content: 'Project Screenshot';
+    position: absolute;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.project-img-asset {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    transition: var(--transition-base);
+}
+
+.p-card:hover .project-img-asset {
+    transform: scale(1.05);
+}
+
 .p-card p {
     color: var(--text-secondary);
     flex-grow: 1;

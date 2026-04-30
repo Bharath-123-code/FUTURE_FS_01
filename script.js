@@ -20,6 +20,13 @@ const projectData = [
         type: "fullstack",
         info: "Comprehensive blood bank management system handling donations, requests, and inventory. Includes donor profiles, compatibility matching, and reporting features. Still in development, with ongoing improvements to the user interface and backend functionality.Will be available on github soon.",
         github: "https://github.com/Bharath-123-code/blood-bank-management",
+    },
+    {
+        title: "LeadFlow CRM",
+        type: "fullstack",
+        info: "A professional lead management system featuring a real-time admin dashboard, dynamic analytics tracking, and secure role-based authentication. Built with MERN Stack (MongoDB, Express.js, React, Node.js), JWT Authentication, and Render.",
+        github: "https://github.com/Bharath-123-code/FUTURE_FS_02",
+        categories: ["fullstack", "ece-bridge"]
     }
 ];
 
@@ -40,7 +47,7 @@ function renderProjects(category = 'all') {
 
     const filtered = category === 'all'
         ? projectData
-        : projectData.filter(p => p.type === category);
+        : projectData.filter(p => p.type === category || (p.categories && p.categories.includes(category)));
 
     if (filtered.length === 0) {
         projectContainer.innerHTML = '<p>No projects found in this category.</p>';
@@ -54,6 +61,9 @@ function renderProjects(category = 'all') {
 
         card.innerHTML = `
             <span class="p-card-type">${project.type}</span>
+            <div class="project-thumbnail-placeholder">
+                <img class="project-img-asset" src="" alt="${project.title} screenshot">
+            </div>
             <h3>${project.title}</h3>
             <p>${project.info}</p>
             <div class="project-buttons">
