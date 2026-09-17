@@ -26,6 +26,18 @@ const projectData = [
         type: "fullstack",
         info: "A professional lead management system featuring a real-time admin dashboard, dynamic analytics tracking, and secure role-based authentication. Built with MERN Stack (MongoDB, Express.js, React, Node.js), JWT Authentication, and Render.",
         github: "https://github.com/Bharath-123-code/FUTURE_FS_02",
+    },
+    {
+        title: "File Integrity Monitor",
+        type: "security",
+        info: "A cyber security tool to monitor files for unauthorized changes. Enhances system security by tracking file modifications and alerting administrators.",
+        github: "https://github.com/Bharath-123-code/File_integrity_monitor",
+    },
+    {
+        title: "Security Log Analyzer",
+        type: "security",
+        info: "An analytical tool designed to parse and evaluate security logs, helping identify potential threats and security breaches efficiently.",
+        github: "https://github.com/Bharath-123-code/Security_log_analyzer",
     }
 ];
 

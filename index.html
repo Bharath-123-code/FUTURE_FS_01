@@ -61,12 +61,18 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                         </svg>
                     </a>
-                    <a href="assets/Bharath%20Sanga_Resume.pdf" download class="btn btn-primary">
-                        <span>Download Resume</span>
-                        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v10m0 0l-4-4m4 4l4-4m-4 4v5"/>
-                        </svg>
-                    </a>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-btn">
+                            <span>Download Resume</span>
+                            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                            </svg>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="assets/Bharath_Sanga_Resume.pdf" download>Software Engineering Resume</a>
+                            <a href="assets/BHARATH_SANGA_RESUME.pdf" download>Cyber Security Resume</a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="hero-stats">
@@ -112,6 +118,7 @@
                     <button class="filter-btn active" data-type="all">All</button>
                     <button class="filter-btn" data-type="fullstack">Fullstack</button>
                     <button class="filter-btn" data-type="frontend">Frontend</button>
+                    <button class="filter-btn" data-type="security">Security</button>
                 </div>
             </div>
             <div class="project-grid" id="project-container"></div>
@@ -162,7 +169,18 @@
                     <h2>Education <span class="accent-gradient">Journey</span></h2>
                     <p class="section-subtitle">A creative timeline of my academic milestones from school to engineering.</p>
                 </div>
-                <a href="assets/Bharath%20Sanga_Resume.pdf" download class="btn btn-secondary">Download Resume</a>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-btn">
+                        <span>Download Resume</span>
+                        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="assets/Bharath_Sanga_Resume.pdf" download>Software Engineering Resume</a>
+                        <a href="assets/BHARATH_SANGA_RESUME.pdf" download>Cyber Security Resume</a>
+                    </div>
+                </div>
             </div>
             <div class="education-panel">
                 <div class="education-grid">
